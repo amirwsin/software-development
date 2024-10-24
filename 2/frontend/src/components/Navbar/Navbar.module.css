@@ -1,0 +1,29 @@
+
+.red {
+    background: red !important;
+}
+
+
+.nav {
+    background: white;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.7rem 2rem;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+
+.navList a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navList a:hover{
+    color: blue;
+}

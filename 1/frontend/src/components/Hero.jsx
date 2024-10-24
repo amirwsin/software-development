@@ -20,7 +20,6 @@ const Hero = ({name, children}) => {
         <div>
             Number : {number}
             <button onClick={handleClick}>Click me !!!</button>
-
             <ChildHero name={name} setNumber={setNumber}/>
         </div>
     )
